@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+.containerHeader{
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+    
+
+}
+.mainbox {
+    display:flex;
+    flex-wrap: wrap;
+}
+.side {
+    flex: 30%;
+    background-color: bisque;
+    
+}
+
+.main{
+    flex: 70%;
+    background-color: bisque;
+    text-align: center;
+    
+}
+.kevpic{
+    padding: 25px;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .navbar a:hover {
+    background-color: #fffefe;
+    color: black;
+  }
+
+.footer
+{
+    color: antiquewhite;
+    background-color: black;
+    
+    padding: 40px;
+    text-align: center;
+    
+}
