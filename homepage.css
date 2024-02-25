@@ -17,6 +17,7 @@ body {
 .side {
     flex: 30%;
     background-color: bisque;
+    padding:20px;
     
 }
 
@@ -24,10 +25,12 @@ body {
     flex: 70%;
     background-color: bisque;
     text-align: center;
+    padding:20px;
     
 }
 .kevpic{
     width:100%;
+    padding:20px;
 }
 
 @media screen and (max-width: 700px) {
