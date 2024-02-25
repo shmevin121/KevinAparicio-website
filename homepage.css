@@ -27,7 +27,7 @@ body {
     
 }
 .kevpic{
-    padding: 25px;
+    width:100%;
 }
 
 @media screen and (max-width: 700px) {
